@@ -1,12 +1,8 @@
 .centrado {
     text-align:center;
     vertical-align: center;
-}
-.centrado-derecha{
-    text-align:right ;
     align-self: center;
 }
-
 
 .fondoOscuro {
     background: #2B2C2C;
@@ -29,8 +25,13 @@ h3{
     color: #fff;
     font-size: calc(1.3rem + .7vw);
 }
-h4,h5,p{
+h4{
     color: #fff;
+    font-size: calc(1rem + .7vw);
+}
+h5{
+    color: #fff;
+    font-size: calc(0.5rem + .7vw);
 }
 ul{
     list-style: none;
@@ -50,11 +51,12 @@ ul{
     border-radius: 1rem;
     background-color:#2B2C2C ;
     padding: 4%; 
+    margin: 2%;
 
 }
 p{
     color: #fff;
-    font-size: calc(0.5rem + .7vw);
+    font-size: calc(0.5rem + 0.7vw);
     text-align: justify;
 }
 b{
@@ -73,14 +75,30 @@ samp{
     color: #00B382;
     font-size: calc(2rem + .7vw);
 }
+textarea{
+    resize: none;
+    
+}
     
 
 .altura{
-    height: 45rem;
+    padding-top: 5%;
+    padding-bottom: 14%;
+
+}
+.alturab{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
 }
 
-.alturab{
-    height: 40rem;
+.alturac{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.alturad {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
@@ -110,4 +128,6 @@ samp{
 .img2{
     width: 100%;
 }
+
+
 

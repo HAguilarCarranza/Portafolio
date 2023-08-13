@@ -40,8 +40,8 @@ h6{
 
 .validacionEstado{
     position: absolute;
-    right: 1%;
-    bottom: 20%;
+    right: 5px;
+    bottom: 8px;
     z-index: 100;
     font-size: calc(1rem + .7vw);
     opacity: 0;
@@ -108,8 +108,7 @@ samp{
 textarea{
     resize: none;
     
-}
-    
+}   
 
 .altura{
    height: 100vh;
@@ -168,10 +167,7 @@ textarea{
     color: #dc3545;
     opacity: 1;
 }
-.grupoIncorreto .form-control{
-    border: 2px solid #dc3545;
 
-}
 
 @media (max-width:576px) {
     .qcentrado{
@@ -184,7 +180,4 @@ textarea{
         margin-bottom: 0px !important;
     }
 }
-
-
-
 

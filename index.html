@@ -259,7 +259,10 @@
                 <div class="col-md-5">
                     <form id="form">
                         <div class="input-group mb-4" id="grupoName">
-                            <span class="validacionEstado fa-regular"></span>
+                            <div>
+                                <span class="validacionEstado fa-regular"></span>
+                            </div>
+                            
                             <input type="text" class="form-control py-2" placeholder="Nombre" name="name">
                         </div>
                         <div class="input-group my-4" id="grupoEmail">
@@ -267,11 +270,11 @@
                             <input type="email" class="form-control py-2" placeholder="Correo Electronico" name="email">
                         </div>
                         <div class="my-4">
-                            <textarea type="text" class="form-control" placeholder="Mensaje" rows="6" name="menssage"></textarea>
+                            <textarea type="textarea" class="form-control" placeholder="Mensaje" rows="6" name="menssage"></textarea>
                         </div>
                         <div>
-                            <p class="text-success centrado textoFormularioEnviado">Mensaje Enviado Exitosamente</p> 
-                            <p class="text-danger centrado textoFormularioError"><span class="fas fa-exclamation-triangle"></span> Error: Por favor llena el formulario correctamente.</p>
+                            <p class="text-success centrado textoFormularioEnviado" id="textoFormularioEnviado"><span class="fa-solid fa-circle-check"></span> Mensaje Enviado Exitosamente</p> 
+                            <p class="text-danger centrado textoFormularioError" id="textoFormularioError"><span class="fas fa-exclamation-triangle"></span> Error: Por favor llena el formulario correctamente.</p>
                         </div>
                         <div class="qcentrado">
                             <input type="submit" id="button" value="Enviar Mensaje" class="btnVerde">

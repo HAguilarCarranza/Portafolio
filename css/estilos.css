@@ -37,6 +37,32 @@ h6{
     color: #fff;
     font-size: calc(0.8rem + .5vw);
 }
+
+.validacionEstado{
+    position: absolute;
+    right: 1%;
+    bottom: 20%;
+    z-index: 100;
+    font-size: calc(1rem + .7vw);
+    opacity: 0;
+
+}
+
+.textoFormularioError{
+    display: none;
+}
+
+.textoFormularioErrorActivo{
+    display: block;
+}
+
+.textoFormularioEnviado{
+    display: none;
+}
+.textoFormularioEnviadoAvtivo{
+    display:block;
+}
+ 
 ul{
     list-style: none;
     padding: 0;
@@ -131,6 +157,20 @@ textarea{
 }
 .img2{
     width: 100%;
+}
+
+
+.grupoCorreto .validacionEstado{
+    color: #00B382;
+    opacity: 1;
+}
+.grupoIncorreto .validacionEstado{
+    color: #dc3545;
+    opacity: 1;
+}
+.grupoIncorreto .form-control{
+    border: 2px solid #dc3545;
+
 }
 
 @media (max-width:576px) {

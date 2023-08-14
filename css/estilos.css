@@ -111,7 +111,12 @@ i{
 textarea{
     resize: none;
     
-}   
+}  
+
+.navg{
+    position: fixed;
+    width: 100%;
+}
 
 .altura{
    height: 100vh;
@@ -234,7 +239,7 @@ textarea{
 .container-fluid a {
     font-size: calc(1rem + .7vw);
     font-weight:bold;
-    color:#a8acb3;
+    color:var(--verde);
     text-decoration: none;
     transition: 0.6s;
 }

@@ -62,8 +62,8 @@ document.getElementById('form')
                     btn.value = 'Enviar Mensaje';
                     document.getElementById('textoFormularioError').classList.remove('textoFormularioEnviadoAvtivo')
                     document.getElementById('textoFormularioEnviado').classList.add('textoFormularioEnviadoAvtivo')
-                    setTimeout(() => {document.getElementById('textoFormularioEnviado').classList.remove('textoFormularioEnviadoAvtivo')}, 5000);
-                    document.querySelectorAll('.grupoCorreto').forEach((icono) => {icono.classList.remove('grupoCorreto');})
+                    setTimeout(() => { document.getElementById('textoFormularioEnviado').classList.remove('textoFormularioEnviadoAvtivo') }, 5000);
+                    document.querySelectorAll('.grupoCorreto').forEach((icono) => { icono.classList.remove('grupoCorreto'); })
                     formulario.reset()
                 }, (err) => {
                     btn.value = 'Enviar Mensaje';
@@ -81,4 +81,21 @@ document.getElementById('form')
                 document.getElementById('textoFormularioError').classList.remove('textoFormularioEnviadoAvtivo')
             }, 5000);
         }
-    });
+});
+
+
+let nav = document.querySelector(".container .centrado h4")
+altura = nav.offsetTop;
+
+function ocultarNav(){
+    let scrollTop = document.documentElement.scrollTop;
+    if(altura<scrollTop){
+        document.getElementById('navg').classList.add("navge")
+    }
+    else{
+        document.getElementById('navg').classList.remove("navge")
+    }
+}
+
+window.addEventListener('scroll',ocultarNav)
+

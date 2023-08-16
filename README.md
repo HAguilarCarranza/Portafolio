@@ -1,3 +1,2 @@
 # Portafolio
-Hola este es el primer cambio
-cle
+Esta aplicación web funciona como un portafolio digital personalizado que permite mostrar de manera eficaz la información, proyectos y datos de contacto. El sitio web es completamente responsivo y permite a los usuarios enviar mensajes directos a través de un formulario de contacto integrado.
